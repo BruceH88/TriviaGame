@@ -1,12 +1,13 @@
 // define questions objects
 var arTrivia = [
-  { question: "What is my favorite color?", option: ["Red", "Blue", "Yellow", "Green"], answer: "Blue" },
-  { question: "What is my favorite pet?", option: ["Dog", "Cat", "Bird", "Lizard"], answer: "Lizard" },
-  { question: "What is my favorite decade?", option: ["1980", "1990", "2000", "2010"], answer: "1980" },
-  { question: "What color is my car?", option: ["Green", "Red", "Black", "White"], answer: "Black" },
-  { question: "What is the last day of class?", option: ["1/29/19", "2/2/19", "2/3/19", "2/5/19"], answer: "2/2/19" },
-  { question: "How many tables are in the room?", option: ["16", "18", "20", "22"], answer: "22" },
-  { question: "How many hours is this class?", option: ["4", "3.5", "3", "2.5"], answer: "3" },
+  { question: "Who said 'That's one small step for man, one giant leap for mankind'?", option: ["Gus Grissom", "Buzz Aldrin", "Neil Armstrong", "Alan Shepard"], answer: "Neil Armstrong" },
+  { question: "Which Apollo mission had a cabin fire that killed the entire crew?", option: ["Apollo 1", "Apollo 2", "Apollo 3", "Apollo 4"], answer: "Apollo 1" },
+  { question: "In what year did first person walk on the moon?", option: ["1966", "1967", "1968", "1969"], answer: "1969" },
+  { question: "Which Apollo mission aborted it's landing on the moon?", option: ["Apollo 12", "Apollo 13", "Apollo 14", "Apollo 15"], answer: "Apollo 13" },
+  { question: "In what year did the last Apollo mission take flight?", option: ["1970", "1971", "1972", "1973"], answer: "1972" },
+  { question: "What is the longest an Apollo mission stayed on the moon?", option: ["1 Days", "3 Days", "5 Days", "7 Days"], answer: "3 Days" },
+  { question: "Which Apollo mission was the first to orbit another celestial body?", option: ["Apollo 1", "Apollo 3", "Apollo 5", "Apollo 8"], answer: "Apollo 8" },
+  { question: "Who was the second person to walk on the moon?", option: ["Buzz Aldrin", "Neil Armstrong", "Gus Grissom", "Alan Shepard"], answer: "Buzz Aldrin" },
 ];
 
 // define variables
@@ -17,7 +18,7 @@ var curAnswer = "";
 var gameRunning = false;
 var numberRight = 0;
 var gameDone = false;
-var sortQuestions = [0, 1, 2, 3, 4, 5, 6];
+var sortQuestions = [0, 1, 2, 3, 4, 5, 6, 7];
 
 // define jQuery objects
 var $counter = $("#counter");
